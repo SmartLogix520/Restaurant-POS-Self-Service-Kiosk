@@ -15,13 +15,14 @@ This project includes:
 
 ## 📦 Monorepo Architecture
 
+```
 restaurant-pos/
 │
-├── api/ → Spring Boot (Java), PostgreSQL, Docker
-├── admin/ → React + Vite (Admin Dashboard)
-├── ui/ → React + Vite (POS Interface)
-└── kiosk-ui/ → React + Vite (Self-Service Kiosk)
-
+├── api/         → Spring Boot (Java), PostgreSQL, Docker
+├── admin/       → React + Vite (Admin Dashboard)
+├── ui/          → React + Vite (POS Interface)
+└── kiosk-ui/    → React + Vite (Self-Service Kiosk)
+```
 
 Each folder is managed as a separate GitHub repository:
 - [`restaurant-pos-Kiosk-api`](https://github.com/SmartLogix520/BorneCommandeServer)
@@ -30,7 +31,6 @@ Each folder is managed as a separate GitHub repository:
 - [`kiosk-ui`](https://github.com/SmartLogix520/BorneCommandeClient)
 
 ---
-
 
 ## 🚀 Tech Stack
 
@@ -43,7 +43,6 @@ Each folder is managed as a separate GitHub repository:
 | Deployment    | Docker (local containers)                       |
 
 ---
-
 
 ## ⚙️ Features
 
@@ -69,4 +68,3 @@ Each folder is managed as a separate GitHub repository:
 - RESTful API built with Spring Boot
 - PostgreSQL relational database
 - Dockerized for local setup
-
